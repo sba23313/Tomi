@@ -21,6 +21,14 @@ public class Tomi {
         for (int verse = 1; verse <= 3; verse++) {
             System.out.println(intro);
             System.out.println("Why is Al out in the rain?");
+            
+            System.out.println((String) switch (verse) {
+                case 1 -> "That's because he has no brain.";
+                case 2 -> "That's because he is a pain.";
+                case 3 -> "Cause this is the last refrain.";
+                default -> "";
+            });
+            
         }
     }
     
