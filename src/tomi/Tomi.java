@@ -17,6 +17,11 @@ public class Tomi {
         String intro = """
                        Al's all wet. Oh, why is Al all wet? Oh,
                        Al's all wet 'cause he's standing in the rain.""";
+        
+        for (int verse = 1; verse <= 3; verse++) {
+            System.out.println(intro);
+            System.out.println("Why is Al out in the rain?");
+        }
     }
     
 }
