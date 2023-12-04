@@ -21,6 +21,16 @@ public class Tomi {
         for (int verse = 1; verse <= 3; verse++) {
             System.out.println(intro);
             System.out.println("Why is Al out in the rain?");
+            
+            switch (verse) {
+                case 3:
+                    System.out.println("Last refrain, last refrain,");
+                case 2:
+                    System.out.println("He's a pain, he's a pain,");
+                case 1:
+                    System.out.println("Has no brain, has no brain'");
+            }
+            
         }
     }
     
