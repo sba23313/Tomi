@@ -14,7 +14,9 @@ public class Tomi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String intro = """
+                       Al's all wet. Oh, why is Al all wet? Oh,
+                       Al's all wet 'cause he's standing in the rain.""";
     }
     
 }
