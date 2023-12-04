@@ -29,6 +29,11 @@ public class Tomi {
                 default -> "";
             });
             
+            System.out.println("""
+                               In the rain, in the rain.
+                               Oh, oh, oh, oh""");
+            System.out.println();
+            
         }
     }
     
