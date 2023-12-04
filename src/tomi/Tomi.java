@@ -32,6 +32,7 @@ public class Tomi {
             }
             
         }
+        System.out.println(intro);
     }
     
 }
