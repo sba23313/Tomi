@@ -33,8 +33,17 @@ public class Tomi {
                                In the rain, in the rain.
                                Oh, oh, oh, oh""");
             System.out.println();
+            switch (verse) {
+                case 3:
+                    System.out.println("Last refrain, last refrain,");
+                case 2:
+                    System.out.println("He's a pain, he's a pain,");
+                case 1:
+                    System.out.println("Has no brain, has no brain'");
+            }
             
         }
+        System.out.println(intro);
     }
     
 }
